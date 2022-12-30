@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+   android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:gravity="center"
+    android:background="@color/black"
+    tools:context=".CreateCard"
+    >
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text ="Enter List"
+        android:textColor="@color/white"
+        android:textSize="60dp"
+        android:gravity="center"
+
+        >
+
+    </TextView>
+    <EditText
+        android:id="@+id/create_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        android:background="@drawable/custom_edit"
+        android:textColorHint="#BFBBBB"
+        android:textColor="@color/white"
+        android:padding="15dp"
+
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/create_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="prority"
+android:layout_marginTop="15dp"
+        android:textSize="25dp"
+        android:background="@drawable/custom_edit"
+        android:textColorHint="#BFBBBB"
+        android:textColor="@color/white"
+        android:padding="15dp">
+
+    </EditText>
+    <Button
+        android:id="@+id/save_button"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Save"
+        android:background="@drawable/custom_edit"
+        android:layout_marginTop="30dp"
+
+        >
+    </Button>
+</LinearLayout>
+
+

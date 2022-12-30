@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="@color/black"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="20dp"
+    tools:context=".UpdateCard"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="your list"
+        android:textSize="35dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:layout_marginBottom="15dp"
+
+        >
+    </TextView>
+    <EditText
+        android:id="@+id/create_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:background="@drawable/custom_edit"
+        android:textColorHint="#BFBBBB"
+        android:textColor="@color/white"
+        android:padding="15dp"
+
+        >
+    </EditText>
+    <EditText
+        android:id="@+id/create_priority"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="prority"
+        android:layout_marginTop="15dp"
+        android:textSize="20dp"
+        android:background="@drawable/custom_edit"
+        android:textColorHint="#BFBBBB"
+        android:textColor="@color/white"
+        android:padding="15dp">
+
+    </EditText>
+   <LinearLayout
+       android:layout_width="300dp"
+       android:layout_height="wrap_content"
+       android:orientation="horizontal"
+       android:layout_marginTop="15dp"
+
+       > <Button
+       android:id="@+id/update_button"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/custom_edit"
+       android:text="Update"/>
+
+       <View
+           android:layout_width="0dp"
+           android:layout_height="0dp"
+           android:layout_weight="1"/>
+
+       <Button
+           android:id="@+id/delete_button"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:background="@drawable/custom_edit"
+           android:backgroundTint="#FF5722"
+           android:text="Delete"/>
+
+   </LinearLayout>
+</LinearLayout>
