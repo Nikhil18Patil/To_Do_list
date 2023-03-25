@@ -20,7 +20,7 @@ class MainActivity : AppCompatActivity() {
             val intent =Intent(this, CreateCard::class.java)
             startActivity(intent)
         }
-
+   // this is for delete
         delete_all.setOnClickListener {
             DataObject.deleteAll()
             GlobalScope.launch {
